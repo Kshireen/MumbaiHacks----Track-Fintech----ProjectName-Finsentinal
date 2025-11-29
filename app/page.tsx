@@ -1,5 +1,7 @@
 import Image from "next/image";
 import SimSwap from "./component/SImSwap/SimSwap";
+import SimSwapChecker from "./component/SimWapChecker/SimSwapChecker";
+import SimpleNumberVerification from "./component/NumberVerification/NumberVerification";
 
 export default function Home() {
   return (
@@ -7,6 +9,9 @@ export default function Home() {
       <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
         
         <SimSwap/>
+
+        <SimpleNumberVerification/>
+    
         
     
       </main>
